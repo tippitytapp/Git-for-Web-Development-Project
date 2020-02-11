@@ -32,29 +32,37 @@ CODEPEN:
     15. How do I reference an id?
             -reference an id with #
     16. What is the difference between a section and a div
+            -a section is to be used when modifying/moving a whole section of a page, where a div is used to modify multiple parts of a page
     17. What is CSS used for? 
             -add visual effects ie. color, transform, etc..
     18. How to we select an element? Example - every h2 on the page
             -h2{};
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-            -
+            -a class can be used for many items of the same type, for example all imgs on a page you may give the same class, so that all edits will go for all images, verus a id that is item specific nd can onlyu be used once.
     20. How do we select classes in CSS?
             - we select a class using the (.)
     21. How do we select a p element with a single class of “human””?
             - .human p
     22. What is a parent child selector? When would this be useful? 
+            -a parent child selector, selects all elements taht are a direct child of another element. when styling lists.
     23. How do you select all links within a div with the class of sidebar?
+            -div a.sidebar
     24. What is a pseudo selector?
+            -a psuedo selector allows you to style elements in a chosen state, ie hover, active, visisted, etc
     25. What do we use the change the spacing between lines?
+            -use the line-height property
     26. What do we use to change the spacing between letters?
+            -use the letter-spacing property
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-            -
+            -text-transform:uppercase;       text-transform:lowercase;             text-transform:capitalize
     28. How do I add a 1px border around my div that is dotted and black?
+            -div {border:1px dotted black}
     29. How do I select everything on the page? 
             -to select everything on the page use the * selector
     30. How do I write a comment in CSS?
             - to write a comment in CSS you use /*comment*/
     31. How do I find out what file I am in, when I am using the command line? 
+            -$pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
             - use the command $ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
@@ -66,11 +74,33 @@ CODEPEN:
     36. What is the command we would use to push our repo up to github? 
             - git push -u origin "firstName-lastName"
     37. Walk me through Lambda's git flow. 
+            -1) fork to your account, 
+            -2) add tl as collaborator via settings>collaborators>TLName, 
+            -3) click "clone or download"
+            -4) Copy the repo URL
+            -5) open terminal, cd into desired clone location
+            -6) $git clone <repo url>
+            -7) $cd <new repo>
+            -8) create branch using $git checkout -b 'firstName-lastName'
+            -9) $git add .
+            -10)$git commit -m "helpful comment about changes"
+            -11)$git push -u origin branch-Name 
+            -12)go back to github, click on your forked repo
+            -13)click on branch dropdown to select your named branch
+            -14)click on new pull request
+            -15)change the base repo to your forked repo
+            -16)add TL to the reviewers
+            -17)submit pull request
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+            -
     2. What happens when an element is positioned absolutely? 
+            -
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+            -
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+            -
     5. In your own words, explain the box model. What is the fix for the box model? 
+            -
