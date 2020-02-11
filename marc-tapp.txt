@@ -95,12 +95,12 @@ CODEPEN:
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-            -
+            -block elements typically force a line break to occur, where as an inline element does not. you cannot put block elements inline
     2. What happens when an element is positioned absolutely? 
-            -
+            -an absolute element is permanetly positioned whereever the properties stipulate, and in relation to whatever element is stipulated.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-            -
+            -use display:block; width:px
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-            -
+            -block:div, header, section             inline: span, img           inline-block:button
     5. In your own words, explain the box model. What is the fix for the box model? 
-            -
+            -the box model is how all elements on a page are layed out. starting with (Margin(Border(Padding(Content)))), the fix is box-sizing:border-box
